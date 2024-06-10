@@ -28,164 +28,142 @@
      <!-- add to cart modal  -->
 
      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-     aria-hidden="true">
-     <div class="modal-dialog modal-lg">
-         <div class="modal-content">
-             <div class="modal-header">
-                 <h5 class="modal-title" id="exampleModalLabel">shopping cart</h5>
-                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                 </button>
-             </div>
-             <div class="modal-body">
-                 <div class="px-4 px-lg-0">
-                     <div class="pb-5">
-                         <div class="container">
-                             <div class="row">
-                                 <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
-                                     <!-- Shopping cart table -->
-                                     <div class="table-responsive">
-                                         <table class="table">
-                                             <thead>
-                                                 <tr>
-                                                     <th scope="col" class="border-0 bg-light">
-                                                         <div class="p-2 px-3 text-uppercase">Product</div>
-                                                     </th>
-                                                     <th scope="col" class="border-0 bg-light">
-                                                         <div class="py-2 text-uppercase">Price</div>
-                                                     </th>
-                                                     <th scope="col" class="border-0 bg-light">
-                                                         <div class="py-2 text-uppercase">Quantity</div>
-                                                     </th>
-                                                     <th scope="col" class="border-0 bg-light">
-                                                         <div class="py-2 text-uppercase">Remove</div>
-                                                     </th>
-                                                 </tr>
-                                             </thead>
-                                             <tbody>
-                                                 <tr>
-                                                     <th scope="row" class="border-0">
-                                                         <div class="p-2">
-                                                             <img src="/asset/image/foodimg/mpfood-1.jpg"
-                                                                 alt="" width="70"
-                                                                 class="img-fluid rounded shadow-sm">
-                                                             <div class="ml-3 d-inline-block align-middle">
-                                                                 <h5 class="mb-0"> <a href="#"
-                                                                         class="text-dark d-inline-block align-middle">Nature Healthy Food</a></h5><span
-                                                                     class="text-muted font-weight-normal font-italic d-block">Category:
-                                                                     Food</span>
-                                                             </div>
-                                                         </div>
-                                                     </th>
-                                                     <td class="border-0 align-middle"><strong>$79.00</strong></td>
-                                                     <td class="border-0 align-middle"><strong>3</strong></td>
-                                                     <td class="border-0 align-middle"><a href="#"
-                                                             class="text-dark"><i class="fa fa-trash"></i></a></td>
-                                                 </tr>
-                                                 <tr>
-                                                     <th scope="row">
-                                                         <div class="p-2">
-                                                             <img src="asset/image/foodimg/mpfood-2.jpg"
-                                                                 alt="" width="70"
-                                                                 class="img-fluid rounded shadow-sm">
-                                                             <div class="ml-3 d-inline-block align-middle">
-                                                                 <h5 class="mb-0"><a href="#"
-                                                                         class="text-dark d-inline-block">Chicken Fried</a></h5><span
-                                                                     class="text-muted font-weight-normal font-italic">Category:
-                                                                     Food</span>
-                                                             </div>
-                                                         </div>
-                                                     </th>
-                                                     <td class="align-middle"><strong>$79.00</strong></td>
-                                                     <td class="align-middle"><strong>3</strong></td>
-                                                     <td class="align-middle"><a href="#" class="text-dark"><i
-                                                                 class="fa fa-trash"></i></a>
-                                                     </td>
-                                                 </tr>
-                                                 <tr>
-                                                     <th scope="row">
-                                                         <div class="p-2">
-                                                             <img src="asset/image/foodimg/mpfood-3.jpg"
-                                                                 alt="" width="70"
-                                                                 class="img-fluid rounded shadow-sm">
-                                                             <div class="ml-3 d-inline-block align-middle">
-                                                                 <h5 class="mb-0"> <a href="#"
-                                                                         class="text-dark d-inline-block">Countrified Salad</a></h5><span
-                                                                     class="text-muted font-weight-normal font-italic">Category:
-                                                                     Food</span>
-                                                             </div>
-                                                         </div>
-                                                     <td class="align-middle"><strong>$79.00</strong></td>
-                                                     <td class="align-middle"><strong>3</strong></td>
-                                                     <td class="align-middle"><a href="#" class="text-dark"><i
-                                                                 class="fa fa-trash"></i></a>
-                                                     </td>
-                                                 </tr>
-                                             </tbody>
-                                         </table>
-                                     </div>
-                                     <!-- End -->
-                                 </div>
-                             </div>
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">shopping cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="px-4 px-lg-0">
+                        <div class="pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+                                        <!-- Shopping cart table -->
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class="border-0 bg-light">
+                                                            <div class="p-2 px-3 text-uppercase">Produk</div>
+                                                        </th>
+                                                        <th scope="col" class="border-0 bg-light">
+                                                            <div class="py-2 text-uppercase">Harga</div>
+                                                        </th>
+                                                        <th scope="col" class="border-0 bg-light">
+                                                            <div class="py-2 text-uppercase">Jumlah</div>
+                                                        </th>
+                                                        <th scope="col" class="border-0 bg-light">
+                                                            <div class="py-2 text-uppercase">Hapus</div>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row" class="border-0">
+                                                            <div class="p-2">
+                                                                <img src="/asset/image/foodimg/mpfood-1.jpg"
+                                                                    alt="" width="70"
+                                                                    class="img-fluid rounded shadow-sm">
+                                                                <div class="ml-3 d-inline-block align-middle">
+                                                                    <h5 class="mb-0"> <a href="#"
+                                                                            class="text-dark d-inline-block align-middle">Martabak Keju</a></h5><span
+                                                                        class="text-muted font-weight-normal font-italic d-block">Category:
+                                                                        Food</span>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                        <td class="border-0 align-middle"><strong>Rp. 23.000,00</strong></td>
+                                                        <td class="border-0 align-middle"><strong>1</strong></td>
+                                                        <td class="border-0 align-middle"><a href="#"
+                                                                class="text-dark"><i class="fa fa-trash"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="p-2">
+                                                                <img src="asset/image/foodimg/mpfood-2.jpg"
+                                                                    alt="" width="70"
+                                                                    class="img-fluid rounded shadow-sm">
+                                                                <div class="ml-3 d-inline-block align-middle">
+                                                                    <h5 class="mb-0"><a href="#"
+                                                                            class="text-dark d-inline-block">Martabak Coklate</a></h5><span
+                                                                        class="text-muted font-weight-normal font-italic">Category:
+                                                                        Food</span>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                        <td class="align-middle"><strong>Rp. 23.000,00</strong></td>
+                                                        <td class="align-middle"><strong>1</strong></td>
+                                                        <td class="align-middle"><a href="#" class="text-dark"><i
+                                                                    class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="p-2">
+                                                                <img src="asset/image/foodimg/mpfood-3.jpg"
+                                                                    alt="" width="70"
+                                                                    class="img-fluid rounded shadow-sm">
+                                                                <div class="ml-3 d-inline-block align-middle">
+                                                                    <h5 class="mb-0"> <a href="#"
+                                                                            class="text-dark d-inline-block">Martabak Coklate Pisang</a></h5><span
+                                                                        class="text-muted font-weight-normal font-italic">Category:
+                                                                        Food</span>
+                                                                </div>
+                                                            </div>
+                                                        <td class="align-middle"><strong>Rp. 25.000,00</strong></td>
+                                                        <td class="align-middle"><strong>1</strong></td>
+                                                        <td class="align-middle"><a href="#" class="text-dark"><i
+                                                                    class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- End -->
+                                    </div>
+                                </div>
+                                <div class="row py-5 p-4 bg-white rounded shadow-sm">
+                                    <div class="col-lg-6">
+                                        <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">
+                                            Ringkasan pesanan </div>
+                                        <div class="p-0">
+                                            <p class="font-italic mb-4">Berikut ini total dan jumlah Martabak yang anda pesan.</p>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong
+                                                        class="text-muted">Total Pesanan
+                                                    </strong><strong>RP. 71.000,00</strong></li>
+                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong
+                                                        class="text-muted">Jasa Pengiriman 
+                                                        dan Penanganan</strong><strong>Rp. 5.000,00</strong></li>
+                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong
+                                                        class="text-muted">Pajak</strong><strong>Rp. 0</strong></li>
+                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong
+                                                        class="text-muted">Total</strong>
+                                                    <h5 class="font-weight-bold">Rp. 76.000,00</h5>
+                                                </li>
+                                            </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block">Lanjutkan 
+                                                Pembayaran</a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                             <div class="row py-5 p-4 bg-white rounded shadow-sm">
-                                 <div class="col-lg-6">
-                                     <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">
-                                         Coupon code</div>
-                                     <div class="p-0">
-                                         <p class="font-italic mb-4">If you have a coupon code, please enter it in
-                                             the box below</p>
-                                         <div class="input-group mb-4 border rounded-pill p-2">
-                                             <input type="text" placeholder="Apply coupon"
-                                                 aria-describedby="button-addon3" class="form-control border-0">
-                                             
-                                         </div>
-                                     </div>
-                                     <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">
-                                         Instructions for seller</div>
-                                     <div class="p-4">
-                                         <p class="font-italic mb-4">If you have some information for the seller you
-                                             can leave them in the box below</p>
-                                         <textarea name="" cols="30" rows="2" class="form-control"></textarea>
-                                     </div>
-                                 </div>
-                                 <div class="col-lg-6">
-                                     <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">
-                                         Order summary </div>
-                                     <div class="p-0">
-                                         <p class="font-italic mb-4">Shipping and additional costs are calculated
-                                             based on values you have entered.</p>
-                                         <ul class="list-unstyled mb-4">
-                                             <li class="d-flex justify-content-between py-3 border-bottom"><strong
-                                                     class="text-muted">Order Subtotal
-                                                 </strong><strong>$390.00</strong></li>
-                                             <li class="d-flex justify-content-between py-3 border-bottom"><strong
-                                                     class="text-muted">Shipping and
-                                                     handling</strong><strong>$10.00</strong></li>
-                                             <li class="d-flex justify-content-between py-3 border-bottom"><strong
-                                                     class="text-muted">Tax</strong><strong>$0.00</strong></li>
-                                             <li class="d-flex justify-content-between py-3 border-bottom"><strong
-                                                     class="text-muted">Total</strong>
-                                                 <h5 class="font-weight-bold">$400.00</h5>
-                                             </li>
-                                         </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block">Procceed
-                                             to checkout</a>
-                                     </div>
-                                 </div>
-                             </div>
+                            </div>
+                        </div>
+                    </div>
 
-                         </div>
-                     </div>
-                 </div>
-
-             </div>
-             <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                 <button type="button" class="btn btn-warning">Save changes</button>
-             </div>
-         </div>
-     </div>
- </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn btn-warning">Simpan</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
  <!--   =====first navbar====-->
